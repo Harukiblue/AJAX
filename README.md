@@ -2,9 +2,8 @@
 Get files via ajax. This uses vanilla JS ajax, no third party library. Retrieve a single file or a multiple file with the ajax registry.
 <br/>
 * Get a single file via ajax and then perform a callback
-<br/>
+\
 HTML
-<br/>
 ```html
 <section>
 	<h2>Get single file via ajax</h2>
@@ -18,11 +17,10 @@ AJAX.Get("data/file.txt", function(data){
 	AJAX.Write("output-single", data);
 });
 ```
-<br/>
+\
 * Load multiple files via ajax and then perform a callback function
-<br/>
+\
 HTML
-<br/>
 ```html
 <section>
 	<h2>Get multiple files via ajax</h2>
